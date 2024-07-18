@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Cinzel';
+    src: url('./Cinzel-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cinzel';
+    src: url('./Cinzel-Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./Poppins-Regular.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./Poppins-Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Comforter';
+    src: url('./Comforter-Regular.ttf');
+    font-weight: normal
+}

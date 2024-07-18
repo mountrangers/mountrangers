@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--beige);
+    color: var(--black)
+}
+
+#hero-image{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    z-index: -1;
+    background-color: #fff9f6;
+}
+#hero-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.hero-title {
+    padding: 16px;
+}
+
+.hero-title h1{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', Georgia, 'Times New Roman', Times, serif;
+    font-size: 72px;
+    color: var(--black);
+    text-align: center;
+    padding-top: 60px;
+}
+
+.hero-title .tagline {
+    font-family: 'Comforter';
+    font-size: 42px;
+    text-align: center;
+}
+
+.body{
+    width: 70%;
+    margin: auto;
+    background: var(--white);
+    margin-top: 200px;
+    border-radius: 5px;
+    padding: 20px 60px;
+    position: relative;
+    z-index: 1;
+}
+
+.section {
+    margin: 24px 0;
+    font-size: 18px;
+    font-family:'Poppins';
+
+}
+
+.section a {
+    color: var(--green);
+    text-decoration: none;
+}
+.section a:hover{
+    text-decoration: underline;
+}
+
+.section .heading {
+    margin: 12px 0;
+}
+
+.section ul{
+    padding-left: 25px;
+}
+
+.section li{
+    margin: 8px 0;
+}
+
+.section p{
+    margin: 16px 0;
+}
+
+.section p, .section li {
+    text-align: justify;
+}
+
+.footer {
+    min-height: 200px;
+    background-color: var(--green);
+    color: var(--white);
+    margin-top: -60px;
+    z-index: -1;
+}
+
+.footer{
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer .container{
+    padding: 20px;
+}
+
+.footer .container h1{
+    font-family: 'Cinzel';
+}
+
+@media (max-width: 768px) {
+    .body{
+        width: 90%;
+    }
+    #hero-image img{
+        object-position: center 170px;
+    }
+    .hero-title h1{
+        font-size: 56px;
+    }
+    .hero-title .tagline{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 520px) {
+    .body{
+        margin-top: 100px;
+        padding: 20px 20px;
+    }
+    .section ul{
+        padding-left: 12px;
+    }
+}
+
+@media (max-width: 400px) {
+    .body{
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 340px) {
+    .hero-title h1{
+        font-size: 48px;
+    }
+    .hero-title .tagline{
+        font-size: 32px;
+    }
+    
+}

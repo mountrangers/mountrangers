@@ -1,0 +1,16 @@
+:root {
+    --black: #212121;
+    --green: #6D9886;
+    --white: #F6F6F6;
+    --beige: #D9CAB3;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: var(--white);
+    background: var(--green);
+}
+
+::selection {
+color: var(--white);
+background: var(--green);
+}
